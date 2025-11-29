@@ -119,7 +119,45 @@ def start_browser(proxy: str, headless: bool) -> webdriver.Chrome:
 # ---------------------------------------------------------------------------
 
 def capture_rtoken(driver, timeout: int) -> Optional[str]:
-    print(f"[*] Aguardando rtoken (timeout {timeout}s). Resolva o CAPTCHA e SUBMETA se necessário...")
+    print(f"[*] Aguardando rtoken (timeout {timeout}s)...")
+    print("[*] Tentando detectar e interagir com elementos de login para forçar captcha...")
+    
+    # Tenta preencher campos (pode trigger captcha invisível)
+    try:
+        username_field = driver.find_element(By.CSS_SELECTOR, "input[type='email'], input[name='username'], input[id*='user'], input[placeholder*='mail'], input[placeholder*='user']")
+        username_field.click()
+        username_field.send_keys("test@example.com")
+        print("[*] Campo username preenchido (teste)")
+    except Exception:
+        print("[!] Campo username não encontrado")
+    
+    try:
+        password_field = driver.find_element(By.CSS_SELECTOR, "input[type='password'], input[name='password']")
+        password_field.click()
+        password_field.send_keys("TestPassword123")
+        print("[*] Campo password preenchido (teste)")
+    except Exception:
+        print("[!] Campo password não encontrado")
+    
+    # Procura iframes de captcha
+    try:
+        iframes = driver.find_elements(By.TAG_NAME, "iframe")
+        captcha_found = False
+        for iframe in iframes:
+            src = iframe.get_attribute("src") or ""
+            if "recaptcha" in src.lower():
+                captcha_found = True
+                print(f"[+] iframe reCAPTCHA detectado: {src[:80]}...")
+                break
+        if not captcha_found:
+            print("[!] Nenhum iframe reCAPTCHA visível ainda. Pode ser invisible ou carregar após submit.")
+    except Exception:
+        pass
+    
+    print("[*] Observando campo g-recaptcha-response...")
+    print("[*] Se captcha checkbox aparecer, CLIQUE NELE.")
+    print("[*] Se for invisible, tente clicar no botão de LOGIN/SUBMIT para triggá-lo.")
+    
     rtoken = None
     for i in range(timeout):
         try:
@@ -128,11 +166,17 @@ def capture_rtoken(driver, timeout: int) -> Optional[str]:
                 rtoken = val
                 print(f"[+] rtoken capturado (len={len(rtoken)}) parcial: {rtoken[:60]}...")
                 break
+            # A cada 10s mostra status
+            if i > 0 and i % 10 == 0:
+                print(f"[*] Ainda aguardando... ({i}/{timeout}s)")
         except Exception:
             pass
         time.sleep(1)
     if not rtoken:
-        print("[-] rtoken não apareceu. Verifique se completou o desafio e não atualizou a página.")
+        print("[-] rtoken não apareceu. Possíveis causas:")
+        print("    - Captcha não foi resolvido/clicado")
+        print("    - Captcha invisible não foi trigado (tente submit/login)")
+        print("    - Página usa outro mecanismo de proteção")
     return rtoken
 
 # ---------------------------------------------------------------------------
