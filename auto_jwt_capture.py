@@ -156,7 +156,17 @@ def capture_rtoken(driver, timeout: int) -> Optional[str]:
     
     print("[*] Observando campo g-recaptcha-response...")
     print("[*] Se captcha checkbox aparecer, CLIQUE NELE.")
-    print("[*] Se for invisible, tente clicar no botão de LOGIN/SUBMIT para triggá-lo.")
+    print("[*] Detectando botão submit para triggerar captcha invisible...")
+    
+    # Tenta clicar no submit para forçar invisible captcha
+    try:
+        time.sleep(2)
+        submit_btn = driver.find_element(By.CSS_SELECTOR, "button[type='submit'], button[type='button'], input[type='submit'], button")
+        submit_btn.click()
+        print("[+] Botão submit clicado - aguardando captcha invisible...")
+        time.sleep(3)
+    except Exception as e:
+        print(f"[!] Não encontrou botão submit: {e}")
     
     rtoken = None
     for i in range(timeout):
@@ -230,116 +240,3 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print('\n[!] Interrompido.')
         sys.exit(130)
-
-
-
-
-
-
-reload?k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
-api-auth
-clr?k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
-api-auth
-collect
-collect
-collect
-collect
-collect
-collect
-collect
-11 requests
-26.1 kB transferred
-Request URL
-https://www.google.com/recaptcha/api2/reload?k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
-Request Method
-POST
-Status Code
-200 OK
-Remote Address
-127.0.0.1:9050
-Referrer Policy
-strict-origin-when-cross-origin
-alt-svc
-h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-cache-control
-private
-content-encoding
-gzip
-content-type
-application/json; charset=utf-8
-cross-origin-opener-policy-report-only
-same-origin; report-to="coop_38fac9d5b82543fc4729580d18ff2d3d"
-cross-origin-resource-policy
-same-site
-date
-Sat, 29 Nov 2025 02:54:11 GMT
-expires
-Sat, 29 Nov 2025 02:54:11 GMT
-report-to
-{"group":"coop_38fac9d5b82543fc4729580d18ff2d3d","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d"}]}
-server
-ESF
-set-cookie
-_GRECAPTCHA=09ADiQh0fL8C4UgAkscJwwaU6wbVUsUOk8nu7l0BqKd84XmVnVV7orz9QyARzr_Uv3X6GAMhGVOh748EqRsJFdg9Y; Expires=Thu, 28-May-2026 02:54:11 GMT; Path=/recaptcha; Secure; HttpOnly; Priority=HIGH; SameSite=none
-vary
-Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
-x-content-type-options
-nosniff
-x-frame-options
-SAMEORIGIN
-x-xss-protection
-0
-:authority
-www.google.com
-:method
-POST
-:path
-/recaptcha/api2/reload?k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
-:scheme
-https
-accept
-*/*
-accept-encoding
-gzip, deflate, br, zstd
-accept-language
-en-US,en;q=0.9
-content-length
-12108
-content-type
-application/x-protobuffer
-origin
-https://www.google.com
-priority
-u=1, i
-referer
-https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19&co=aHR0cHM6Ly9hZG1pbi5hZmYuZXNwb3J0ZXNkYXNvcnRlLmNvbTo0NDM.&hl=en&v=TkacYOdEJbdB_JjX802TMer9&size=invisible&anchor-ms=20000&execute-ms=15000&cb=ki0lzy2kfenm
-sec-ch-ua
-"Not_A Brand";v="99", "Chromium";v="142"
-sec-ch-ua-mobile
-?0
-sec-ch-ua-platform
-"Linux"
-sec-fetch-dest
-empty
-sec-fetch-mode
-cors
-sec-fetch-site
-same-origin
-sec-fetch-storage-access
-none
-user-agent
-Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
-x-client-data
-CIHoygE=
-Decoded:
-message ClientVariations {
-  // Active Google-visible variation IDs on this client. These are reported for analysis, but do not directly affect any server-side behavior.
-  repeated int32 variation_id = [3322881];
-}
-
-
-
-
-
-
-
