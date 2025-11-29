@@ -410,3 +410,12 @@ password	"ReconPass2025!"
 rtoken	"0cAFcWeA4QPfo5pgvPL_Z11fv7yJ4hmclG-okbm7_nLdWCQaBDXn7R46hWcnxKTl4YhekqSrKMpj8IcZr9xCDgk7RykggJkWg24ZrKJillyziDMqGeCkYuVJE6mz0hfV2tHLkBpeHeXgGmYaanL97AsKU3Ig50K4kBvlfgPECJJAn4JD1P3id9x0AbHJsZFiNIT3JiLEzwhDto-pdVbS1j-ZnGxlhjN8FASZ3pK59JSGvsrT32XDfVBMawa08HKPBuBPMc0f0ntDk6ETHPQMwkKOs3E5H-DoDKSOwmljsmakWHbovTW41EnADRxE9K3diXvU27BnrRpjH4pvyvPPO1NZ85F_Nm8OXQsQUHXL4WdkjXGF9OQIBn79BlPUpiuK2U9w61B9eNZt4MJclFXE1y52rMBO5T3npyjKKo1OuKfEeqijMoFbQ6KUevnObfysLrsJUq78gR4Gbcsk1YoDcvfak5eWjUj2W-GSZqDQM-sivm1-GzEtimk2r3iJAAT…ocNjcQQt3zFCc0RAfD7BX9olNbpafJELdA62yWgHBXjmZJJP45uK6LruTR0oqdaCnBrY6RRepussnPExM5m52I9NGOAh_phqoYfD_EfVAGot0rPUWBmCDB9BClXjnxNYecevzS8VOJkH33Ubakd-I0yBXTcTyhjr4UneK1jGV3AQTVlu12dNSwBbIUg833lDvLARhOtUTGlKUgLwpGw0wt7dXcrXqmYmSySp8Yp8OAjJnG2sOVNIxYrwBzAqwResAJFzWdIZGRhwyFIVAtl5VLVZxLFFBoE_3Ki_rcF43Vy1og7JKzuJ7pZCMLPnEQ5whqAKUaU1AWukT_cZTXveya-ii-RiNwkDQ4IUDBv0Yb5pmqIzKxameL9aehTvydgM5VWYegA2RxW2zM-yx-MDtaQZyT0nmmq67U3W-17iZqledmIOwmRzRd9YC7msiXkp_-J5IRYG3bzVb-VRJYQROc3K8MfzWQtdDzaY9VEdRkmY9PpUhedMXrVcuQbYLg"
 username	"recon_A1@test.com"
 
+setInterval(() => {
+  const token = document.getElementById('g-recaptcha-response')?.value;
+  if (token && token.length > 400) {
+    console.log('🔑 RTOKEN VÁLIDO:');
+    console.log(token);
+    copy(token);
+    clearInterval(this);
+  }
+}, 500);
