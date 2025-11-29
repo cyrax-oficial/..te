@@ -107,7 +107,9 @@ def start_browser(proxy: str, headless: bool) -> webdriver.Chrome:
     except WebDriverException:
         try:
             from webdriver_manager.chrome import ChromeDriverManager
-            return webdriver.Chrome(ChromeDriverManager().install(), options=opts)
+            from selenium.webdriver.chrome.service import Service
+            service = Service(ChromeDriverManager().install())
+            return webdriver.Chrome(service=service, options=opts)
         except Exception as e:
             print(f'[-] Falha ao iniciar Chrome: {e}')
             raise
