@@ -307,3 +307,90 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print('\n[!] Interrompido.')
         sys.exit(130)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+collect
+collect
+collect
+collect
+collect
+collect
+collect
+reload?k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
+api-auth
+clr?k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
+api-auth
+collect
+collect
+collect
+14 requests
+25.8 kB transferred
+Request URL
+https://q.clarity.ms/collect
+Request Method
+POST
+Status Code
+204 No Content
+Remote Address
+20.231.53.73:443
+Referrer Policy
+strict-origin-when-cross-origin
+access-control-allow-credentials
+true
+access-control-allow-origin
+https://admin.aff.esportesdasorte.com
+connection
+keep-alive
+date
+Sat, 29 Nov 2025 03:26:14 GMT
+request-context
+appId=cid-v1:3d284f99-f285-495c-ac33-dedd7ecf1ac8
+server
+nginx
+vary
+Origin
+accept
+application/x-clarity-gzip
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+en-US,en;q=0.9
+connection
+keep-alive
+content-length
+607
+host
+q.clarity.ms
+origin
+https://admin.aff.esportesdasorte.com
+referer
+https://admin.aff.esportesdasorte.com/
+sec-ch-ua
+"Not_A Brand";v="99", "Chromium";v="142"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Linux"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+cross-site
+sec-fetch-storage-access
+none
+user-agent
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
