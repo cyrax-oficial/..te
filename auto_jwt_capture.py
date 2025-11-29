@@ -318,38 +318,114 @@ if __name__ == '__main__':
 
 
 
+Disable Cache
+12 requests
+39.70 kB / 60.71 kB transferred
+Finish: 1.30 min
+
+	
+__Secure-1PSIDCC	
+domain	".google.com"
+expires	"2026-11-29T04:20:42.000Z"
+httpOnly	true
+path	"/"
+secure	true
+value	"AKEyXzUwFL_dR6k0Oedx7jI81IsU7nDBp3sfRaaD8PSfqoAak5rUoG3nuXh7hPAtvtXQY-NvLNE"
+__Secure-3PSIDCC	
+domain	".google.com"
+expires	"2026-11-29T04:20:42.000Z"
+httpOnly	true
+path	"/"
+samesite	"None"
+secure	true
+value	"AKEyXzWTGK9Ne4lUpHdkSj6fCeVjRLae4T90lvilVDCMbjQnBFB-w_3IqMjq3jvG1B1C5-hnFA"
+SIDCC	
+domain	".google.com"
+expires	"2026-11-29T04:20:42.000Z"
+path	"/"
+value	"AKEyXzXOxeQWLucOmiqaP2WmR79sNSWa7fKhVsoRa6kk818dbkNCDBBjli3Qil3ZiWuhsVqnlg"
+
+    	
+    __Secure-1PAPISID	"074IP9yal-lHdfFY/ADHFz6bOKCJCT72Pp"
+    __Secure-1PSID	"g.a0004AjU6aB3jYgheOjarUx7LrSrKyJON-9JDMCjuIS8KRMJucpiP9-tsLDYBVqHwsS3JELxXwACgYKAZkSARcSFQHGX2Mi4QbML2JPWKRdwhRS2ufnahoVAUF8yKrLnBIxpfXNVSTy7cNLw7Ig0076"
+    __Secure-1PSIDCC	"AKEyXzVdmJN1Li6neG8yhzA3CSKn3YWkb6EeEGRT7jDlwo-WLXf-WmcGREBF0Rgoyws38U49XfM"
+    __Secure-1PSIDTS	"sidts-CjEBwQ9iIwURPM427K9JXEtqAP-mT0Qtxx6A179WbIRDStdDS4OIVx9DFaPAcIGNr6qGEAA"
+    __Secure-3PAPISID	"074IP9yal-lHdfFY/ADHFz6bOKCJCT72Pp"
+    __Secure-3PSID	"g.a0004AjU6aB3jYgheOjarUx7LrSrKyJON-9JDMCjuIS8KRMJucpifK90GqKF2VjviAtU83j6QAACgYKAWUSARcSFQHGX2MiJ6jAyDRXsY_WynvijDoqihoVAUF8yKqxKc0rbZy-lWcuJNW67ero0076"
+    __Secure-3PSIDCC	"AKEyXzUQmMpiXR7fvrkZ78BKk8LPHkUibFg7-0SIFe_eb6_76qiXQWBqsgXzpiTG_7bvhTGLsA"
+    __Secure-3PSIDTS	"sidts-CjEBwQ9iIwURPM427K9JXEtqAP-mT0Qtxx6A179WbIRDStdDS4OIVx9DFaPAcIGNr6qGEAA"
+    _GRECAPTCHA	"09ADiQh0e4slv3djlk4zEGJmM6HjKnJrlX1kpHsYtGMDIFGUlDrEVByNhQzFwLvbRa0VMiqk7eMI5tBVP1utDHkEc"
+    APISID	"MzdIU4amqmTZvKjn/ACc1JKJH0N311_1p9"
+    GOOGLE_ABUSE_EXEMPTION	"ID=5d6f194c93fe841a:TM=1764380583:C=r:IP=185.220.101.18-:S=k32r0S7X0Y5JzCY-vvnW0xI"
+    HSID	"AyljRmD2UOE8ZQPs7"
+    NID	"526=VU4PFUsN98eizNZFp4zMiciPPwfbAcF_1bji9RMBZYnxBdq-ieF6LJIsbrrcOPmzSHwYxCTuBcvW57oN7Yv2kRYAzTu9TGcyeRml7Nh6wqWeBl6aPwjo6RBNw1kvtlez8hDcb7AxsnDhDPdpkGBJTJAZE_Y4eAf0CVrVMzFIzwvfAH15JG9td0WELlkk6lU_jJmvOFFHTYRji9M3oYX3h2vyr1ycfSJSQosOk4PwDLtr4svqVpJKnnq7tZICE96y4AVMOHQoPCNYVi2RgrxA4ci9x9fUo30QECtKsjcdrpBxxiu5tN0VyPOxKBoGpG-Ce2dvprarA4EbSGvEL2RGOCC1dHix-v0eVFat7_ZVgtAetYG_hyHWFLXmZiyhEqnxNK9JoXyZezM7Q4XJ71C30TiMQ7Iz63nOoXVazWIzmmZtDS1KhPe3rfMiOXyyVHwU7GC9_d-BPLqFeRlpPAjnRp2wFC6fUbsg5nLr_Y0Sv6QP8DdkW6gEG9iIQ5oPPViN8dqACDDuM3sfsoT6I0cbrVx9eawWz7pl4i69VNGSWAw2OVhtntKq8u_EQE83-QrghCXOTGczSRjaXxG2pS4XlD1j0p4YbEY2eHelMHXEqwAGqcvJryhN4jXLloPJOLt2zG3BQ0-nKVQfa0steTdFmij4Wos_lY9AvdbYDPgSnbZMquu2Nk_vcPvuiS0kjAmF5gVgmEhpNxPz7qenZpXJsBjFYUr0ElmsGvIBGshxcP-kPloP_rvKHVuHdJUVPcY4corUem4FMnKyEnW5SW4"
+    SAPISID	"074IP9yal-lHdfFY/ADHFz6bOKCJCT72Pp"
+    SID	"g.a0004AjU6aB3jYgheOjarUx7LrSrKyJON-9JDMCjuIS8KRMJucpiZt8LStA-U8OCrGMpWhdG7wACgYKAXUSARcSFQHGX2MiQp11o20FLvWl1b686w8BtBoVAUF8yKpdJHli6LzqvmYnrsGgFS_50076"
+    SIDCC	"AKEyXzW4qhjpEiY66bEhleS7jAdEoHK2RZOKkWHe-P3Ka2kKEvvH0csf8tK9lgk865gA8lkyxQ"
+    SSID	"Ac7Mr6LBxPUnMmQCz"
+
+
+Disable Cache
+13 requests
+39.70 kB / 61.98 kB transferred
+Finish: 1.73 min
+	
 POST
-	https://boapi.smartico.ai/api-auth
+	
+scheme
+	https
+host
+	www.google.com
+filename
+	/recaptcha/api2/reload
+k
+	6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19
+Address
+	0.0.0.0:443
 Status
 200
 VersionHTTP/2
-Transferred952 B (52 B size)
+Transferred23.78 kB (39.65 kB size)
 Referrer Policystrict-origin-when-cross-origin
 DNS ResolutionSystem
 
 	
-access-control-allow-origin
-	https://admin.aff.esportesdasorte.com
-content-length
-	52
+alt-svc
+	h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+cache-control
+	private
+content-encoding
+	gzip
 content-type
 	application/json; charset=utf-8
+cross-origin-opener-policy-report-only
+	same-origin; report-to="coop_38fac9d5b82543fc4729580d18ff2d3d"
+cross-origin-resource-policy
+	same-site
 date
-	Sat, 29 Nov 2025 03:48:55 GMT
-etag
-	W/531546c720dd66298ad4d516d5e64e344e68e28a29e9f93aa2b844a8f77403fb
+	Sat, 29 Nov 2025 04:20:42 GMT
+expires
+	Sat, 29 Nov 2025 04:20:42 GMT
+report-to
+	{"group":"coop_38fac9d5b82543fc4729580d18ff2d3d","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/38fac9d5b82543fc4729580d18ff2d3d"}]}
+server
+	ESF
 set-cookie
-	AWSALBTG=4w+NmexqiO09VbR6i6I9XpgoRoCstX2tO6d6FI0Al4sGcS4TxhuuV6Rz703Kqc5pp+H74k7QuG5FZNxkk3u2wg6GLNA9g0y5WaHcSCxgx0Ig861pjfnrDgxkyACq3rM2EzrfmoEEwFTYGcSJ3YlK2vz3ez2zkjZWR8ULwwECDTzWiSQVCfE=; Expires=Sat, 06 Dec 2025 03:48:55 GMT; Path=/
+	SIDCC=AKEyXzXOxeQWLucOmiqaP2WmR79sNSWa7fKhVsoRa6kk818dbkNCDBBjli3Qil3ZiWuhsVqnlg; expires=Sun, 29-Nov-2026 04:20:42 GMT; path=/; domain=.google.com; priority=high
 set-cookie
-	AWSALBTGCORS=4w+NmexqiO09VbR6i6I9XpgoRoCstX2tO6d6FI0Al4sGcS4TxhuuV6Rz703Kqc5pp+H74k7QuG5FZNxkk3u2wg6GLNA9g0y5WaHcSCxgx0Ig861pjfnrDgxkyACq3rM2EzrfmoEEwFTYGcSJ3YlK2vz3ez2zkjZWR8ULwwECDTzWiSQVCfE=; Expires=Sat, 06 Dec 2025 03:48:55 GMT; Path=/; SameSite=None; Secure
-smartico-origin-server
-	ip-172-31-24-35
+	__Secure-1PSIDCC=AKEyXzUwFL_dR6k0Oedx7jI81IsU7nDBp3sfRaaD8PSfqoAak5rUoG3nuXh7hPAtvtXQY-NvLNE; expires=Sun, 29-Nov-2026 04:20:42 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+set-cookie
+	__Secure-3PSIDCC=AKEyXzWTGK9Ne4lUpHdkSj6fCeVjRLae4T90lvilVDCMbjQnBFB-w_3IqMjq3jvG1B1C5-hnFA; expires=Sun, 29-Nov-2026 04:20:42 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
 vary
-	Origin, Accept-Encoding
+	Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+x-content-type-options
+	nosniff
 X-Firefox-Spdy
 	h2
-x-robots-tag
-	noindex, nofollow
+x-frame-options
+	SAMEORIGIN
+x-xss-protection
+	0
 	
 Accept
 	*/*
@@ -360,15 +436,86 @@ Accept-Language
 Connection
 	keep-alive
 Content-Length
-	1772
-content-type
-	application/json
+	12248
+Content-Type
+	application/x-protobuffer
+Cookie
+	_GRECAPTCHA=09ADiQh0e4slv3djlk4zEGJmM6HjKnJrlX1kpHsYtGMDIFGUlDrEVByNhQzFwLvbRa0VMiqk7eMI5tBVP1utDHkEc; NID=526=VU4PFUsN98eizNZFp4zMiciPPwfbAcF_1bji9RMBZYnxBdq-ieF6LJIsbrrcOPmzSHwYxCTuBcvW57oN7Yv2kRYAzTu9TGcyeRml7Nh6wqWeBl6aPwjo6RBNw1kvtlez8hDcb7AxsnDhDPdpkGBJTJAZE_Y4eAf0CVrVMzFIzwvfAH15JG9td0WELlkk6lU_jJmvOFFHTYRji9M3oYX3h2vyr1ycfSJSQosOk4PwDLtr4svqVpJKnnq7tZICE96y4AVMOHQoPCNYVi2RgrxA4ci9x9fUo30QECtKsjcdrpBxxiu5tN0VyPOxKBoGpG-Ce2dvprarA4EbSGvEL2RGOCC1dHix-v0eVFat7_ZVgtAetYG_hyHWFLXmZiyhEqnxNK9JoXyZezM7Q4XJ7…Secure-3PAPISID=074IP9yal-lHdfFY/ADHFz6bOKCJCT72Pp; SIDCC=AKEyXzW4qhjpEiY66bEhleS7jAdEoHK2RZOKkWHe-P3Ka2kKEvvH0csf8tK9lgk865gA8lkyxQ; __Secure-1PSIDCC=AKEyXzVdmJN1Li6neG8yhzA3CSKn3YWkb6EeEGRT7jDlwo-WLXf-WmcGREBF0Rgoyws38U49XfM; __Secure-3PSIDCC=AKEyXzUQmMpiXR7fvrkZ78BKk8LPHkUibFg7-0SIFe_eb6_76qiXQWBqsgXzpiTG_7bvhTGLsA; __Secure-1PSIDTS=sidts-CjEBwQ9iIwURPM427K9JXEtqAP-mT0Qtxx6A179WbIRDStdDS4OIVx9DFaPAcIGNr6qGEAA; __Secure-3PSIDTS=sidts-CjEBwQ9iIwURPM427K9JXEtqAP-mT0Qtxx6A179WbIRDStdDS4OIVx9DFaPAcIGNr6qGEAA
 Host
-	boapi.smartico.ai
+	www.google.com
+Origin
+	https://www.google.com
+Referer
+	https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdYBt8UAAAAAFZXub0e0LuYfuKwm38FSg4eJP19&co=aHR0cHM6Ly9hZG1pbi5hZmYuZXNwb3J0ZXNkYXNvcnRlLmNvbTo0NDM.&hl=en&v=TkacYOdEJbdB_JjX802TMer9&size=invisible&anchor-ms=20000&execute-ms=15000&cb=gqvws2tsn9qd
+Sec-Fetch-Dest
+	empty
+Sec-Fetch-Mode
+	cors
+Sec-Fetch-Site
+	same-origin
+TE
+	trailers
+User-Agent
+	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+
+Disable Cache
+14 requests
+39.70 kB / 63.39 kB transferred
+Finish: 2.04 min
+	
+POST
+	
+scheme
+	https
+host
+	b.clarity.ms
+filename
+	/collect
+Address
+	0.0.0.0:443
+Status
+204
+No Content
+VersionHTTP/1.1
+Transferred2.09 kB (0 B size)
+Referrer Policystrict-origin-when-cross-origin
+DNS ResolutionSystem
+Blocking
+Enhanced Tracking Protection
+This URL matches a known tracker and it would be blocked with Content Blocking enabled.
+
+	
+Access-Control-Allow-Credentials
+	true
+Access-Control-Allow-Origin
+	https://admin.aff.esportesdasorte.com
+Connection
+	keep-alive
+Date
+	Sat, 29 Nov 2025 04:20:34 GMT
+Request-Context
+	appId=cid-v1:2f7711a9-b21e-4abe-a9d6-5b0ce5d18b64
+Server
+	nginx
+Vary
+	Origin
+	
+Accept
+	application/x-clarity-gzip
+Accept-Encoding
+	gzip, deflate, br, zstd
+Accept-Language
+	en-US,en;q=0.5
+Connection
+	keep-alive
+Content-Length
+	1293
+Cookie
+	MUID=217794E6799F66F239BD825578276715
+Host
+	b.clarity.ms
 Origin
 	https://admin.aff.esportesdasorte.com
-Priority
-	u=4
 Referer
 	https://admin.aff.esportesdasorte.com/
 Sec-Fetch-Dest
@@ -377,45 +524,49 @@ Sec-Fetch-Mode
 	cors
 Sec-Fetch-Site
 	cross-site
-Sec-GPC
-	1
 User-Agent
-	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/1
+	Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+
+Disable Cache
+15 requests
+39.70 kB / 64.73 kB transferred
+Finish: 2.28 min
+
+    	
+    MUID	"217794E6799F66F239BD825578276715"
 
 
 Disable Cache
-4 requests
-39.73 kB / 39.88 kB transferred
-Finish: 3.10 s
+16 requests
+39.70 kB / 66.26 kB transferred
+Finish: 2.54 min
 
     	
     AWSALBTG	
-    expires	"2025-12-06T03:48:55.000Z"
+    expires	"2025-12-06T04:20:43.000Z"
     path	"/"
-    value	"4w+NmexqiO09VbR6i6I9XpgoRoCstX2tO6d6FI0Al4sGcS4TxhuuV6Rz703Kqc5pp+H74k7QuG5FZNxkk3u2wg6GLNA9g0y5WaHcSCxgx0Ig861pjfnrDgxkyACq3rM2EzrfmoEEwFTYGcSJ3YlK2vz3ez2zkjZWR8ULwwECDTzWiSQVCfE="
+    value	"ltyuBsaslXNlwm4dNzGzagpEKTqqwYSwVs+5GiRWFFmuuJIWWnw6AVKfP2Cn6CHmt+AcXAvQrwqcD0AUVGfOZOCCYK8rdeYcfB1BtKeqDrtDtgvV6xANuGYNC0jwWpRS2lT4h8hL/OJroNpWlmLTHP2JjXdGy/Wpq3A8ia2p0Qpqj/myfJ0="
     AWSALBTGCORS	
-    expires	"2025-12-06T03:48:55.000Z"
+    expires	"2025-12-06T04:20:43.000Z"
     path	"/"
     samesite	"None"
     secure	true
-    value	"4w+NmexqiO09VbR6i6I9XpgoRoCstX2tO6d6FI0Al4sGcS4TxhuuV6Rz703Kqc5pp+H74k7QuG5FZNxkk3u2wg6GLNA9g0y5WaHcSCxgx0Ig861pjfnrDgxkyACq3rM2EzrfmoEEwFTYGcSJ3YlK2vz3ez2zkjZWR8ULwwECDTzWiSQVCfE="
+    value	"ltyuBsaslXNlwm4dNzGzagpEKTqqwYSwVs+5GiRWFFmuuJIWWnw6AVKfP2Cn6CHmt+AcXAvQrwqcD0AUVGfOZOCCYK8rdeYcfB1BtKeqDrtDtgvV6xANuGYNC0jwWpRS2lT4h8hL/OJroNpWlmLTHP2JjXdGy/Wpq3A8ia2p0Qpqj/myfJ0="
 
 
 Disable Cache
-4 requests
-39.73 kB / 39.88 kB transferred
-Finish: 3.10 s
+16 requests
+39.70 kB / 66.26 kB transferred
+Finish: 2.54 min
 	
 password	"ReconPass2025!"
-rtoken	"0cAFcWeA4QPfo5pgvPL_Z11fv7yJ4hmclG-okbm7_nLdWCQaBDXn7R46hWcnxKTl4YhekqSrKMpj8IcZr9xCDgk7RykggJkWg24ZrKJillyziDMqGeCkYuVJE6mz0hfV2tHLkBpeHeXgGmYaanL97AsKU3Ig50K4kBvlfgPECJJAn4JD1P3id9x0AbHJsZFiNIT3JiLEzwhDto-pdVbS1j-ZnGxlhjN8FASZ3pK59JSGvsrT32XDfVBMawa08HKPBuBPMc0f0ntDk6ETHPQMwkKOs3E5H-DoDKSOwmljsmakWHbovTW41EnADRxE9K3diXvU27BnrRpjH4pvyvPPO1NZ85F_Nm8OXQsQUHXL4WdkjXGF9OQIBn79BlPUpiuK2U9w61B9eNZt4MJclFXE1y52rMBO5T3npyjKKo1OuKfEeqijMoFbQ6KUevnObfysLrsJUq78gR4Gbcsk1YoDcvfak5eWjUj2W-GSZqDQM-sivm1-GzEtimk2r3iJAAT…ocNjcQQt3zFCc0RAfD7BX9olNbpafJELdA62yWgHBXjmZJJP45uK6LruTR0oqdaCnBrY6RRepussnPExM5m52I9NGOAh_phqoYfD_EfVAGot0rPUWBmCDB9BClXjnxNYecevzS8VOJkH33Ubakd-I0yBXTcTyhjr4UneK1jGV3AQTVlu12dNSwBbIUg833lDvLARhOtUTGlKUgLwpGw0wt7dXcrXqmYmSySp8Yp8OAjJnG2sOVNIxYrwBzAqwResAJFzWdIZGRhwyFIVAtl5VLVZxLFFBoE_3Ki_rcF43Vy1og7JKzuJ7pZCMLPnEQ5whqAKUaU1AWukT_cZTXveya-ii-RiNwkDQ4IUDBv0Yb5pmqIzKxameL9aehTvydgM5VWYegA2RxW2zM-yx-MDtaQZyT0nmmq67U3W-17iZqledmIOwmRzRd9YC7msiXkp_-J5IRYG3bzVb-VRJYQROc3K8MfzWQtdDzaY9VEdRkmY9PpUhedMXrVcuQbYLg"
+rtoken	"0cAFcWeA5bU5OjVGPgAdtcaIlbR3pIU8i5C9VvZ5wNn_119iqZ1hAZyxy86174gtt44YXoCRQgRFk98SEcx_wjeQTcsXR9RabRsN7TwKr17n1-hi6MvGOmt6eeDbvsKBIKT0mZtDEMxwHCu8S-Fvrh-h1JSmuZbOBuzA1QkeIALztAUHY8mlw9knDU3aaX_TOOGASWNQV2fLnnEfgecHCQnS_e-w2aRHcr73ygfW8sqikr4auHa6ld35hzJI7vU2-nS0K460_KQDJf9HGlxe6DcNHDaGpWEHDxPIPEHq-hCwkbNyOrZCHR-3cfqOqCZu6M587YtmzY4C3GNQ2zFSlJZPYBSVovhuiHQzKatAUAUaCQbxNxPR8x34T8mHZODhnV8DVafuTaTNTVrfcK0BzzjNLbHGMUAKsqrBRGnrn5mi301Xqvld62abdQYunrhGixh-tuJAyjbO-KwE3a6_B45u8cV-Bw4lx3UBTjiMHv4BhbM8HuK-shUWvN_0GuY…-KDq9Hhjrd61ZnXytioPGghSU4KIM80_HWkL0PUQ3t4cdBG57-hlKvlkPXSBBvhEesSQiToHOmDNmMyrIVqtGqbqKx8hmGd8llTLrqIAyTEAyLQ6doBVelHo4ts8HNd5ZMxqViZs8DSKKj3bkJg1wBv232O8ukSfhJU55j74c2PRBIq3FmzLbV0Ze6jg-hYTPrnBa1hrBPgDPIDph6afFthAHlMFrrKAh9uKQtNk91M1WxNcLF_oYdfQ_g7GK732peA9joPRK9_qJkkmA99kfJR4TJIYNWC4X68mmvs93nMd5gTCz6CZTA0HJDZyvZNrXTNi2DJH7xbaPGSCMpnX1Nye2DN-9jZUOmibPNEuTweGk9SxeyGK3UFJXjcjA3wvdNmBL-h8WQuKu6VYhArVp9u-9fPb-HgI1pAZ08QVDZsDs9jLvqf-WmfRu2hO-bKMx4oIGXp30fCnkG_FirmEKPFhnCh61qLmG43h4QP5ju0wzgp_AlO_8wIS1zkThg"
 username	"recon_A1@test.com"
 
-setInterval(() => {
-  const token = document.getElementById('g-recaptcha-response')?.value;
-  if (token && token.length > 400) {
-    console.log('🔑 RTOKEN VÁLIDO:');
-    console.log(token);
-    copy(token);
-    clearInterval(this);
-  }
-}, 500);
+Disable Cache
+17 requests
+39.70 kB / 67.95 kB transferred
+Finish: 2.91 min
+	
+errCode	2
+message	"Wrong username or password"
